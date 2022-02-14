@@ -32,7 +32,7 @@ jobs:
           CHKP_CLOUDGUARD_SECRET: jju394fcckup44b1c7q8g6qa
         run: |
           chmod +x ./shiftleft
-          git clone https://github.com/Call-for-Code/Project-Sample
+          git clone https://github.com/ytisf/theZoo
           ./shiftleft code-scan -s . -r -2003 -e 1df96cdc-d49b-4784-a650-678cafee5164
 
       # Runs a set of commands using the runners shell
