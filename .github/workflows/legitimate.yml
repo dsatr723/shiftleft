@@ -31,7 +31,7 @@ jobs:
           CHKP_CLOUDGUARD_ID: cf8eed92-abaf-48ad-94e8-3a8668d5c2ea
           CHKP_CLOUDGUARD_SECRET: jju394fcckup44b1c7q8g6qa
         run: |
-          chmod +x ./shiftleft
+          chmod +x ./shiftleft 
           git clone https://github.com/Call-for-Code/Project-Sample
           ./shiftleft code-scan -s . -r -2003 -e 1df96cdc-d49b-4784-a650-678cafee5164
 
